@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>All Projects | Dasini Jayakody</title>
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/projects-details.css" rel="stylesheet">
+
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "-yx-XS2NOCUTxRvxQ",
+      });
+   })();
+</script>
+</head>
+<body class="index-page">
+  <!-- Dark/Light Mode Toggle -->
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+    <span class="theme-toggle-icon">🌙</span>
+  </button>
+  <!-- Top Horizontal Navigation Bar (copied from index.html) -->
+  <nav id="top-navbar" class="top-navbar">
+    <ul>
+      <li><a href="index.html#hero" class="right-nav-link">Home</a></li>
+      <li><a href="index.html#about" class="right-nav-link">About</a></li>
+      <li><a href="index.html#skills" class="right-nav-link">Skills</a></li>
+      <li><a href="index.html#services" class="right-nav-link">Certifications</a></li>
+      <li><a href="index.html#portfolio" class="right-nav-link">Projects</a></li>
+      <li><a href="index.html#testimonials" class="right-nav-link">Achievements</a></li>
+      <li><a href="index.html#faq" class="right-nav-link">Volunteering</a></li>
+      <li><a href="index.html#contact" class="right-nav-link">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="main" style="margin-top:40px;">
+    <section class="section projects-details-section">
+      <div class="container section-title">
+        <h2>All Projects</h2>
+        <p>Explore all my AI/ML, Data Science, Web Development, and UI/UX projects in detail.</p>
+      </div>
+      <div class="container">
+        <div class="projects-details-list">
+          <!-- AI/ML Projects -->
+          <!-- Project 1: Breast Cancer Detection Dashboard -->
+          <div class="project-detail-card" id="slideshow-1">
+            <div class="project-video-preview">
+              <video src="assets/videos/project-1.mp4" controls poster="assets/img/portfolio/portfolio-1.png" class="project-video" width="100%" style="cursor:pointer;"></video>
+            </div>
+            <div class="project-info">
+              <span class="project-category-badge ai-ml">AI / ML</span>
+              <h3 class="project-title">Breast Cancer Detection Dashboard</h3>
+              <p class="project-description">An interactive machine learning web app using Python and Streamlit to predict breast tumor type (Benign/Malignant) based on user input.</p>
+              <div class="project-meta-modern">
+                <div class="project-features-block">
+                  <h4>Key Features</h4>
+                  <ul class="project-features">
+                    <li>Real-Time Prediction</li>
+                    <li>Interactive Streamlit Interface</li>
+                    <li>Probability Output</li>
+                    <li>Reset Functionality</li>
+                    <li>Deployed Web Dashboard</li>
+                  </ul>
+                </div>
+                <div class="project-tech-block">
+                  <h4>Tech Stack</h4>
+                  <ul class="project-tech-list">
+                    <li>Python</li>
+                    <li>Streamlit</li>
+                    <li>Scikit-learn</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/dasini-jayakody_machinelearning-streamlit-python-activity-7368886181926797312-waYC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-4LuQBRKesDp78OKJ9wEZ8GHn0COH_AD4" target="_blank" class="btn btn-linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/DasiniJayakody/Breast-Cancer-Detector.git" target="_blank" class="btn btn-github"><i class="bi bi-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2: CareerPathAI – Career Guidance System -->
+          <div class="project-detail-card" id="slideshow-2">
+            <div class="project-video-preview">
+              <video src="assets/videos/project-2.mp4" controls poster="assets/img/portfolio/portfolio-2.png" class="project-video" width="100%" style="cursor:pointer;"></video>
+            </div>
+            <div class="project-info">
+              <span class="project-category-badge ai-ml">AI / ML</span>
+              <h3 class="project-title">CareerPathAI – Career Guidance System</h3>
+              <p class="project-description">CareerPathAI is an intelligent career guidance platform that leverages Natural Language Processing (NLP) and Machine Learning to assist users in exploring suitable career paths. By analyzing resumes, identifying skill gaps, and generating personalized recommendations, the system empowers users to make data-driven career decisions.</p>
+              <div class="project-meta-modern">
+                <div class="project-features-block">
+                  <h4>Key Features</h4>
+                  <ul class="project-features">
+                    <li>AI Resume Parsing: Uses spaCy NLP for extracting skills and experience from resumes.</li>
+                    <li>Personalized Career Recommendations: Provides tailored job roles and skill gap insights.</li>
+                    <li>Interactive Learning Plans: Suggests learning resources aligned with user goals.</li>
+                    <li>Visual Analytics Dashboard: Displays insights using Plotly for data-driven visualization.</li>
+                    <li>FastAPI Backend: Modular, RESTful architecture for scalable API communication.</li>
+                    <li>Streamlit Frontend: Simple and responsive user interface for smooth interaction.</li>
+
+                  </ul>
+                </div>
+                <div class="project-tech-block">
+                  <h4>Tech Stack</h4>
+                  <ul class="project-tech-list">
+                    <li>Backend: FastAPI, spaCy, scikit-learn, Sentence Transformers</li>
+                    <li>Frontend: Streamlit</li>
+                    <li>ML/AI: NLP techniques, clustering & similarity models</li>
+                    <li>Document Processing: PDFMiner, python-docx</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/dasini-jayakody_ai-machinelearning-nlp-activity-7357058522544529409-eyMC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-4LuQBRKesDp78OKJ9wEZ8GHn0COH_AD4" target="_blank" class="btn btn-linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/DasiniJayakody/CareerPathAI.git" target="_blank" class="btn btn-github"><i class="bi bi-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3: OratoCoach – AI Public Speaking Coach -->
+          <div class="project-detail-card" id="slideshow-3">
+            <div class="project-video-preview">
+              <video src="assets/videos/project-3.mp4" controls poster="assets/img/portfolio/portfolio-3.png" class="project-video" width="100%" style="cursor:pointer;"></video>
+            </div>
+            <div class="project-info">
+              <span class="project-category-badge ai-ml">AI / ML</span>
+              <h3 class="project-title">OratoCoach – AI Public Speaking Coach</h3>
+              <p class="project-description">OratoCoach is an open-source AI-based public speaking coach designed to help users improve their presentation skills through computer vision analysis. Using OpenCV and MediaPipe, the system evaluates posture, gestures, and eye contact to generate actionable insights and detailed PDF feedback reports. This project empowers speakers to practice more effectively by transforming performance videos into measurable feedback.</p>
+              <div class="project-meta-modern">
+                <div class="project-features-block">
+                  <h4>Key Features</h4>
+                  <ul class="project-features">
+                    <li>Posture Analysis: Detects slouching, imbalance, and overall stance stability.</li>
+                    <li>Gesture Tracking: Monitors hand openness and motion to assess expressiveness.</li>
+                    <li>Engagement Monitoring: Evaluates eye contact and camera focus for engagement cues.</li>
+                    <li>Automated PDF Reports: Summarizes performance metrics with clear visual feedback.</li>
+                    <li>Open-Source Implementation: Fully available on GitHub for community use and contribution.</li>
+                  </ul>
+                </div>
+                <div class="project-tech-block">
+                  <h4>Tech Stack</h4>
+                  <ul class="project-tech-list">
+                    <li>Python</li>
+                    <li>OpenCV</li>
+                    <li>MediaPipe</li>
+                    <li>ReportLab</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/dasini-jayakody_publicspeaking-ai-python-activity-7355987907842625537-ADUj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-4LuQBRKesDp78OKJ9wEZ8GHn0COH_AD4" target="_blank" class="btn btn-linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/DasiniJayakody/OratoCoach.git" target="_blank" class="btn btn-github"><i class="bi bi-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 4: Intima – AI-Based Sexual & Wellness Healthcare Assistant -->
+          <div class="project-detail-card" id="slideshow-4">
+            <div class="project-video-preview">
+              <video src="assets/videos/project-4.mp4" controls poster="assets/img/portfolio/portfolio-4.png" class="project-video" width="100%" style="cursor:pointer;"></video>
+            </div>
+            <div class="project-info">
+              <span class="project-category-badge ai-ml">AI / ML</span>
+              <h3 class="project-title">
+                Intima – AI-Based Sexual & Wellness Healthcare Assistant
+                <span class="badge bg-info ms-2" style="font-size:0.9em;">Group Project</span>
+              </h3>
+              <p class="project-description">Intima is a cross-platform mobile application developed to offer confidential, AI-driven assistance for sexual, reproductive, and gynecological health. Designed with inclusivity and privacy at its core, the app enables users to interact with an intelligent assistant that provides medically informed guidance and personalized recommendations. The project emphasizes ethical AI, secure data handling, and user-centered design to address stigmatized healthcare topics in a culturally sensitive manner.</p>
+              <div class="project-meta-modern">
+                <div class="project-features-block">
+                  <h4>Key Features</h4>
+                  <ul class="project-features">
+                    <li>AI-Powered Chat Assistance: Provides private, context-aware conversations using OpenAI GPT.</li>
+                    <li>Medical Knowledge Retrieval: Integrates a Weaviate vector database for accurate, evidence-based responses.</li>
+                    <li>Cross-Platform Mobile App: Developed with React Native and Expo for seamless Android and iOS experiences.</li>
+                    <li>Secure Backend: Built on Django REST Framework with PostgreSQL and JWT authentication for privacy protection.</li>
+                    <li>Containerized Deployment: Fully Dockerized for streamlined local development and scalability.</li>
+                  </ul>
+                </div>
+                <div class="project-tech-block">
+                  <h4>Tech Stack</h4>
+                  <ul class="project-tech-list">
+                    <li>Frontend: React Native, Expo</li>
+                    <li>Backend: Django REST Framework, PostgreSQL, JWT Authentication</li>
+                    <li>AI/NLP: OpenAI GPT, Weaviate Vector Database</li>
+                    <li>DevOps: Docker</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/dasini-jayakody_capstoneproject-aiforgood-healthtech-activity-7357789508613890048-fBZX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-4LuQBRKesDp78OKJ9wEZ8GHn0COH_AD4" target="_blank" class="btn btn-linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/thewijay/Intima_Front-End.git" target="_blank" class="btn btn-github"><i class="bi bi-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data Science Project -->
+          <!-- Project 5: COVIDScope – Interactive COVID-19 Data Analysis Dashboard -->
+          <div class="project-detail-card" id="slideshow-5">
+            <div class="project-video-preview">
+              <video src="assets/videos/project-5.mp4" controls poster="assets/img/portfolio/portfolio-5.png" class="project-video" width="100%" style="cursor:pointer;"></video>
+            </div>
+            <div class="project-info">
+              <span class="project-category-badge data-science">Data Science</span>
+              <h3 class="project-title">COVIDScope – Interactive COVID-19 Data Analysis Dashboard</h3>
+              <p class="project-description">COVIDScope is an interactive data science dashboard that enables users to explore, analyze, and visualize global COVID-19 data through an intuitive web interface. Built with Python, Streamlit, and Plotly, the platform combines real-time data analytics, comparative visualizations, and predictive modeling to offer meaningful insights into the pandemic’s global impact.</p>
+              <div class="project-meta-modern">
+                <div class="project-features-block">
+                  <h4>Key Features</h4>
+                  <ul class="project-features">
+                    <li>Global and Country-Level Insights: Analyze single-country trends or compare data across multiple nations.</li>
+                    <li>Interactive Visualizations: Explore dynamic charts, heatmaps, and time series trends using Plotly and Seaborn.</li>
+                    <li>Predictive Modeling: Implements time series forecasting for case and death projections.</li>
+                    <li>Data Export Options: Download charts and datasets for offline analysis.</li>
+                    <li>Streamlined User Interface: Interactive filters and responsive layout built with Streamlit.</li>
+                  </ul>
+                </div>
+                <div class="project-tech-block">
+                  <h4>Tech Stack</h4>
+                  <ul class="project-tech-list">
+                    <li>Programming Language: Python</li>
+                    <li>Libraries: Pandas, NumPy, Plotly, Seaborn, Matplotlib</li>
+                    <li>Framework: Streamlit</li>
+                    <li>Techniques: Data visualization, time series analysis, forecasting</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/dasini-jayakody_datascience-python-covid19-activity-7358332719866531841-d1ky?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-4LuQBRKesDp78OKJ9wEZ8GHn0COH_AD4" target="_blank" class="btn btn-linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/DasiniJayakody/COVIDScope.git" target="_blank" class="btn btn-github"><i class="bi bi-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Development Projects -->
+          <!-- Project 6: MerrimentMouse – Event Planning -->
+          <div class="project-detail-card" id="slideshow-6">
+            <div class="project-video-preview">
+              <video src="assets/videos/project-6.mp4" controls poster="assets/img/portfolio/portfolio-6.png" class="project-video" width="100%" style="cursor:pointer;"></video>
+            </div>
+            <div class="project-info">
+              <span class="project-category-badge web-dev">Web Development</span>
+              <h3 class="project-title">MerrimentMouse – Event Planning Website</h3>
+              <p class="project-description">MerrimentMouse is a web-based event planning platform developed as a first-semester project, focusing on delivering an elegant and user-friendly experience for organizing events such as weddings, private parties, and corporate functions. The project combines design aesthetics with functionality to help users explore event services effortlessly.</p>
+              <div class="project-meta-modern">
+                <div class="project-features-block">
+                  <h4>Key Features</h4>
+                  <ul class="project-features">
+                    <li>Elegant UI Design: Built with modern layouts and color schemes for a polished visual experience.</li>
+                    <li>Smooth Navigation: Interactive buttons and menus for intuitive user journeys.</li>
+                    <li>Responsive Layout: Designed using Flexbox and CSS Grid for compatibility across all devices.</li>
+                    <li>Animations: Subtle transitions and effects for an engaging, lively interface.</li>
+                    <li>Comprehensive Service Sections: Dedicated pages for various event types and service descriptions.</li>
+                  </ul>
+                </div>
+                <div class="project-tech-block">
+                  <h4>Tech Stack</h4>
+                  <ul class="project-tech-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/dasini-jayakody_eventplanning-webdevelopment-html-activity-7214319311039971328-OMJo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-4LuQBRKesDp78OKJ9wEZ8GHn0COH_AD4" target="_blank" class="btn btn-linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/DasiniJayakody/Event_Planning_Website-MerrimentMuse.git" target="_blank" class="btn btn-github"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://dasinijayakody.github.io/Event_Planning_Website-MerrimentMuse/" target="_blank" class="btn btn-demo"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 7: BrewBae Cafe Website -->
+          <div class="project-detail-card" id="slideshow-7">
+            <div class="project-video-preview">
+              <video src="assets/videos/project-7.mp4" controls poster="assets/img/portfolio/portfolio-7.png" class="project-video" width="100%" style="cursor:pointer;"></video>
+            </div>
+            <div class="project-info">
+              <span class="project-category-badge web-dev">Web Development</span>
+              <h3 class="project-title">BrewBae Café – Beverage Ordering Website</h3>
+              <p class="project-description">BrewBae Café is a sleek, beverage-focused website developed to deliver a seamless online café experience. The platform enables users to explore various drink categories, place orders, manage their accounts, and review order histories — all through an elegant and responsive interface. The project emphasizes usability, aesthetics, and efficient user interaction, aligning with modern UI/UX design and responsive web principles.</p>
+              <div class="project-meta-modern">
+                <div class="project-features-block">
+                  <h4>Key Features</h4>
+                  <ul class="project-features">
+                    <li>Responsive Design: Optimized for desktops, tablets, and mobile devices.</li>
+                    <li>Smooth Navigation: Intuitive browsing experience for beverage categories and menus.</li>
+                    <li>Order & Checkout System: Simple, interactive flow for placing and managing orders.</li>
+                    <li>User Account Management: Secure profile handling and order history tracking.</li>
+                  </ul>
+                </div>
+                <div class="project-tech-block">
+                  <h4>Tech Stack</h4>
+                  <ul class="project-tech-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/dasini-jayakody_webdevelopment-uiux-responsivedesign-activity-7337415637884968960-k1ts?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-4LuQBRKesDp78OKJ9wEZ8GHn0COH_AD4" target="_blank" class="btn btn-linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/DasiniJayakody/BrewBae-Cafe-Website.git" target="_blank" class="btn btn-github"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://dasinijayakody.github.io/BrewBae-Cafe-Website/" target="_blank" class="btn btn-demo"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- UI/UX Projects -->
+          <!-- Project 8: AI-Powered Fitness Tracker App -->
+          <div class="project-detail-card" id="slideshow-8">
+            <div class="project-video-preview">
+              <video src="assets/videos/project-8.mp4" controls poster="assets/img/portfolio/portfolio-8.png" class="project-video" width="100%" style="cursor:pointer;"></video>
+            </div>
+            <div class="project-info">
+              <span class="project-category-badge uiux">UI/UX Design</span>
+              <h3 class="project-title">NextGenFit – AI-Powered Fitness Tracker App</h3>
+              <p class="project-description">NextGenFit is a modern mobile fitness app designed to enhance user wellness through AI-powered insights and intuitive design. The app provides a seamless fitness tracking experience, offering users real-time activity monitoring, personalized health analytics, and engaging fitness challenges. The UI was fully designed in Figma, with upcoming development using React Native and Django for a cross-platform, data-driven experience.</p>
+              <div class="project-meta-modern">
+                <div class="project-features-block">
+                  <h4>Key Features</h4>
+                  <ul class="project-features">
+                    <li>Dashboard with Real-Time Fitness Stats – Monitor workouts, calories, and daily goals.</li>
+                    <li>AAI-Powered Health Insights – Generate smart recommendations based on user data.</li>
+                    <li>Mood & Sleep Tracking – Track mental wellness and rest quality.</li>
+                    <li>Challenges & Leaderboards – Motivate users through gamified fitness engagement.</li>
+                    <li>Pro Version Subscription Flow – Unlock premium analytics and advanced features.</li>
+                    <li>Error Handling & Workout Timer – Smooth app performance and workout management.</li>
+                  </ul>
+                </div>
+                <div class="project-tech-block">
+                  <h4>Tech Stack</h4>
+                  <ul class="project-tech-list">
+                    <li>Design: Figma</li>
+                    <li>Frontend (Planned): React Native</li>
+                    <li>Backend (Planned): Django, PostgreSQL</li>
+                    <li>Other Concepts: AI Analytics, UX Optimization, Responsive Mobile Design</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/dasini-jayakody_uidesign-figma-mobileappdesign-activity-7354011660501594112-g3Zw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-4LuQBRKesDp78OKJ9wEZ8GHn0COH_AD4" target="_blank" class="btn btn-linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://lnkd.in/gphKpAvQ" target="_blank" class="btn btn-figma"><i class="bi bi-vector-pen"></i> Figma</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 9: Nurture – Newborn Baby Health Tracking System -->
+          <div class="project-detail-card" id="slideshow-9">
+            <div class="project-video-preview">
+              <video src="assets/videos/project-9.mp4" controls poster="assets/img/portfolio/portfolio-9.png" class="project-video" width="100%" style="cursor:pointer;"></video>
+            </div>
+            <div class="project-info">
+              <span class="project-category-badge uiux">UI/UX Design</span>
+              <h3 class="project-title">
+                Nurture – Newborn Baby Health Tracking System
+                <span class="badge bg-info ms-2" style="font-size:0.9em;">Group Project</span>
+              </h3>
+              <p class="project-description">Nurture is a healthcare-focused UI/UX design project aimed at streamlining newborn health tracking for midwives and healthcare professionals. Designed in Figma, this system enhances data accessibility, simplifies record management, and promotes better collaboration between caregivers and parents. The interface prioritizes ease of use, security, and clarity to improve neonatal care workflows.</p>
+              <div class="project-meta-modern">
+                <div class="project-features-block">
+                  <h4>Key Features</h4>
+                  <ul class="project-features">
+                    <li>User-Friendly Interface – Simplified design tailored for healthcare professionals.</li>
+                    <li>Intuitive UX – Ensures seamless navigation and engagement for efficient data entry.</li>
+                    <li>Health Data Management – Tracks newborn metrics such as weight, vaccinations, and growth.</li>
+                    <li>Secure Data Handling – Protects sensitive health information with structured access.</li>
+                    <li>Parent-Caregiver Collaboration – Enables transparent communication and updates.</li>
+                  </ul>
+                </div>
+                <div class="project-tech-block">
+                  <h4>Tech Stack</h4>
+                  <ul class="project-tech-list">
+                    <li>Design Tool: Figma</li>
+                    <li>Core Concepts: UI/UX Design, Healthcare System Workflow, Data Visualization</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-links">
+                <a href="https://www.linkedin.com/posts/dasini-jayakody_uiux-figma-healthcaretech-activity-7305899211361763328-Mzw8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-4LuQBRKesDp78OKJ9wEZ8GHn0COH_AD4" target="_blank" class="btn btn-linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                <a href="https://lnkd.in/gTZkVY6Z" target="_blank" class="btn btn-figma"><i class="bi bi-vector-pen"></i> Figma</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for enlarged video -->
+      <div id="video-modal" class="video-modal" style="display:none;">
+        <span class="video-modal-close" id="video-modal-close">&times;</span>
+        <video class="video-modal-content" id="video-modal-video" src="" controls autoplay style="max-width:90vw;max-height:90vh;"></video>
+      </div>
+    </section>
+  </main>
+
+    <footer id="footer" class="footer dark-background">
+
+  <div class="container">
+    <div class="copyright text-center">
+      <p>© 2025 <strong class="px-1 sitename">Dasini Jayakody</strong>. All rights reserved.</p>
+    </div>
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://www.linkedin.com/in/dasini-jayakody" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/DasiniJayakody"><i class="bi bi-github"></i></a>
+      <a href="https://www.kaggle.com/dasinijayakody"><span class="kaggle-logo"></span></a>
+      <a href="https://huggingface.com/dasinijayakody"><span class="huggingface-logo"></span></a>
+      <a href="https://medium.com/@dasinijayakody"><i class="bi bi-medium"></i></a>
+    </div>
+    <div class="credits text-center">
+      <span>Aspiring AI/ML Engineer | Portfolio designed & developed by Dasini Jayakody</span>
+    </div>
+  </div>
+
+</footer>
+<script>
+  // Theme toggle logic (same as index.html)
+  const themeToggle = document.getElementById('theme-toggle');
+  const themeIcon = themeToggle.querySelector('.theme-toggle-icon');
+  function setTheme(mode) {
+    if (mode === 'dark') {
+      document.body.classList.add('dark-mode');
+      themeIcon.textContent = '☀️';
+    } else {
+      document.body.classList.remove('dark-mode');
+      themeIcon.textContent = '🌙';
+    }
+    localStorage.setItem('theme', mode);
+  }
+  themeToggle.addEventListener('click', function() {
+    const isDark = document.body.classList.contains('dark-mode');
+    setTheme(isDark ? 'light' : 'dark');
+  });
+  // On load, set theme from localStorage
+  setTheme(localStorage.getItem('theme') || 'light');
+</script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
