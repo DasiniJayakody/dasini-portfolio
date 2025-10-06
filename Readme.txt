@@ -2,7 +2,7 @@
 
 🎓 **BSc (Hons) in Computing & Information Systems Undergraduate**  
 📍 *Sabaragamuwa University of Sri Lanka*  
-📧 **dasininirmani@gmail.com** | 🌐 [mysite.com](https://mysite.com) | 📞 +94 76 103 5090  
+📧 **dasininirmani@gmail.com** | 🌐 [mysite.com](https://mysite.com)  
 
 ---
 
