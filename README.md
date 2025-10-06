@@ -2,7 +2,7 @@
 
 🎓 **BSc (Hons) in Computing & Information Systems Undergraduate**  
 📍 *Sabaragamuwa University of Sri Lanka*  
-📧 **dasininirmani@gmail.com** | 🌐 [mysite.com](https://github.com/DasiniJayakody/dasini-portfolio)  
+📧 **dasininirmani@gmail.com** | 🌐 [[https://github.com/DasiniJayakody/dasini-portfolio)]]  
 
 ---
 
