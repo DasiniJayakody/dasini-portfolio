@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Dasini Jayakody
+#  Hi, I'm Dasini Jayakody👋
 
 🎓 **BSc (Hons) in Computing & Information Systems Undergraduate**  
 📍 *Sabaragamuwa University of Sri Lanka*  
