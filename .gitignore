@@ -1,0 +1,14 @@
+# Resume - Keep private, do not push to GitHub
+assets/img/Dasini Nirmani Resume.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
